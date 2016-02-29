@@ -1,0 +1,13 @@
+{"images":[
+	{"image":"pic0.jpg",
+	 "scores":[
+		 {"classifier_id":"Natural_Activity","name":"Natural_Activity","score":0.580795},
+		 {"classifier_id":"Rooster","name":"Rooster","score":0.552978},
+		 {"classifier_id":"Assembly_Plant","name":"Assembly_Plant","score":0.551635},
+		 {"classifier_id":"Sky_Scene","name":"Sky_Scene","score":0.533274},
+		 {"classifier_id":"Camping","name":"Camping","score":0.53009},
+		 {"classifier_id":"Full_Body","name":"Full_Body","score":0.517677},
+		 {"classifier_id":"Crab","name":"Crab","score":0.509267},
+		 {"classifier_id":"Handbag","name":"Handbag","score":0.507739},
+		 {"classifier_id":"Mixed_Color","name":"Mixed_Color","score":0.500581}]}]
+}

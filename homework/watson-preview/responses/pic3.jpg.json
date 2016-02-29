@@ -1,0 +1,15 @@
+{"images":[
+	{"image":"pic3.jpg",
+	 "scores":[
+		 {"classifier_id":"Racoon","name":"Racoon","score":0.652036},
+		 {"classifier_id":"Leopard","name":"Leopard","score":0.631609},
+		 {"classifier_id":"Greenery","name":"Greenery","score":0.581702},
+		 {"classifier_id":"Nature_Scene","name":"Nature_Scene","score":0.562281},
+		 {"classifier_id":"Natural_Activity","name":"Natural_Activity","score":0.560925},
+		 {"classifier_id":"Snake","name":"Snake","score":0.557675},
+		 {"classifier_id":"Green","name":"Green","score":0.527605},
+		 {"classifier_id":"Parkour","name":"Parkour","score":0.513468},
+		 {"classifier_id":"Forest_Path","name":"Forest_Path","score":0.510803},
+		 {"classifier_id":"Outdoors","name":"Outdoors","score":0.51078},
+		 {"classifier_id":"Koala","name":"Koala","score":0.507376}]}]
+}

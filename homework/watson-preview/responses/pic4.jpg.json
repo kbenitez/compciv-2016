@@ -1,0 +1,20 @@
+{"images":[
+	{"image":"pic4.jpg",
+	 "scores":[
+		 {"classifier_id":"Birthday_Party","name":"Birthday_Party","score":0.718098},
+		 {"classifier_id":"Vertebrate","name":"Vertebrate","score":0.651417},
+		 {"classifier_id":"Mammal","name":"Mammal","score":0.63321},
+		 {"classifier_id":"Clothing","name":"Clothing","score":0.610909},
+		 {"classifier_id":"Animal","name":"Animal","score":0.601451},
+		 {"classifier_id":"Clothing_Store","name":"Clothing_Store","score":0.593082},
+		 {"classifier_id":"Celebration","name":"Celebration","score":0.580256},
+		 {"classifier_id":"Mixed_Color","name":"Mixed_Color","score":0.570728},
+		 {"classifier_id":"Girl","name":"Girl","score":0.565632},
+		 {"classifier_id":"Child","name":"Child","score":0.55658},
+		 {"classifier_id":"Animal_Tending","name":"Animal_Tending","score":0.554588},
+		 {"classifier_id":"Indoors","name":"Indoors","score":0.538376},
+		 {"classifier_id":"Store","name":"Store","score":0.517388},
+		 {"classifier_id":"Child_Room","name":"Child_Room","score":0.517044},
+		 {"classifier_id":"Concert","name":"Concert","score":0.514856},
+		 {"classifier_id":"Human","name":"Human","score":0.511357}]}]
+}

@@ -1,0 +1,25 @@
+{"images":[
+	{"image":"pic5.jpg",
+	 "scores":[
+		 {"classifier_id":"Fireworks","name":"Fireworks","score":0.786885},
+		 {"classifier_id":"Fireworks","name":"Fireworks","score":0.786885},
+		 {"classifier_id":"Flower","name":"Flower","score":0.734413},
+		 {"classifier_id":"Sky_Scene","name":"Sky_Scene","score":0.722512},
+		 {"classifier_id":"Dancing","name":"Dancing","score":0.689473},
+		 {"classifier_id":"Performing","name":"Performing","score":0.681475},
+		 {"classifier_id":"Flower_Scene","name":"Flower_Scene","score":0.678284},
+		 {"classifier_id":"Discotheque","name":"Discotheque","score":0.668982},
+		 {"classifier_id":"Macaroons","name":"Macaroons","score":0.654326},
+		 {"classifier_id":"Tiger","name":"Tiger","score":0.647408},
+		 {"classifier_id":"Fireworks","name":"Fireworks","score":0.645657},
+		 {"classifier_id":"Fireworks","name":"Fireworks","score":0.645657},
+		 {"classifier_id":"Ballroom_or_Disco","name":"Ballroom_or_Disco","score":0.636364},
+		 {"classifier_id":"Group_of_People","name":"Group_of_People","score":0.602354},
+		 {"classifier_id":"Deviled_Eggs","name":"Deviled_Eggs","score":0.595859},
+		 {"classifier_id":"Violet","name":"Violet","score":0.566547},
+		 {"classifier_id":"Laundromat","name":"Laundromat","score":0.555673},
+		 {"classifier_id":"Small_Group","name":"Small_Group","score":0.551439},
+		 {"classifier_id":"Black_and_white","name":"Black_and_white","score":0.516149},
+		 {"classifier_id":"Whitehouse","name":"Whitehouse","score":0.511235},
+		 {"classifier_id":"Gray_Sky","name":"Gray_Sky","score":0.504605}]}]
+}

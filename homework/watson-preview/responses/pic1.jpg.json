@@ -1,0 +1,16 @@
+{"images":[
+	{"image":"pic1.jpg",
+	 "scores":[
+		 {"classifier_id":"Boat","name":"Boat","score":0.725184},
+		 {"classifier_id":"Water_Vehicle","name":"Water_Vehicle","score":0.714632},
+		 {"classifier_id":"Sailboard","name":"Sailboard","score":0.634198},
+		 {"classifier_id":"Land_Vehicle","name":"Land_Vehicle","score":0.633788},
+		 {"classifier_id":"Sky_Scene","name":"Sky_Scene","score":0.57718},
+		 {"classifier_id":"Activity_Facility","name":"Activity_Facility","score":0.571231},
+		 {"classifier_id":"Closet_or_Cupboard","name":"Closet_or_Cupboard","score":0.559461},
+		 {"classifier_id":"Water_Sport","name":"Water_Sport","score":0.549187},
+		 {"classifier_id":"Bobsledding","name":"Bobsledding","score":0.546261},
+		 {"classifier_id":"Amusement_Arcade","name":"Amusement_Arcade","score":0.542539},
+		 {"classifier_id":"Boating","name":"Boating","score":0.531839},
+		 {"classifier_id":"Scene","name":"Scene","score":0.530473}]}]
+}
