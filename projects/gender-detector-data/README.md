@@ -89,8 +89,10 @@ __analyze.py__ - Running this script opens and reads "classified_data.csv" to dr
 
 Here are the numbers of unique names by gender in this Chicago employee list:
 F:   2059 M:   1817 NA:   1215
+
 And here is the female to male ratio for that unique set:
 F/M baby ratio: 113
+
 So there are 1.13 times more female than male employees (unidentified gendered names aside).
 
 This seems accurate because the split of the population is 50/50 due to chance statistics. I am upset with the large amount of unidentified genders, but that's just a testament to the amount of diversity in Chicago. The names are unique to outside the US and therefore not on our SS baby names lists and cannot be accurately classified.
@@ -117,10 +119,16 @@ I actually expected the percentage to be lower. I'm super surprised by these fin
 #### Gender Breakdown by Income Bracket:
  
 Here's the proportion of females in each of the following income brackets:
+
 $0 <= $30000        :      72% of 2050 employees.
+
 $30000 <= $50000    :      41% of 1485 employees.
+
 $50000 <= $100000   :      27% of 22592 employees.
+
 $100000 <= $250000  :      17% of 4679 employees.
+
 $250000 <= $1000000 :      100% of 1 employee.
+
 
 You can see women are mostly in the lower income brackets; as the income goes up, women are less represented. The last bracket seems to be an outlier, but I'm proud of her nonetheless.
