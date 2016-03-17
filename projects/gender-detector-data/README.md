@@ -53,9 +53,13 @@ Dealing with commas within a CSV file was the biggest problem. Yes, commas are i
 ## Past Research and Articles
 
 -[HIMSS survey: Men make 25% more than women in health IT](http://www.federaltimes.com/story/government/management/hr/health/2016/03/02/himss-survey-finds-men-make-25-percent-more-than-women-healthcare/81198036/)
+
 -[Breaking the mold: Women firefighters](http://fox21news.com/2016/02/19/breaking-the-mold-women-fire-fighters/)
+
 -[U.S. Push for Fair Pay Racks Up Few Victories](http://www.wsj.com/articles/u-s-push-for-fair-pay-racks-up-few-victories-1458065433)
+
 -[The Wage Gap: Which Jobs Are Paying Women Less?](http://www.forbes.com/sites/shreyaagarwal/2016/03/08/the-wage-gap-which-jobs-are-paying-women-less/#b2558be5998e)
+
 -[Government workforce is closing the gender pay gap, but reforms still needed, report says](https://www.washingtonpost.com/politics/government-workforce-is-closing-the-gender-pay-gap-but-reforms-still-needed-report-says/2014/04/13/59281484-c1b2-11e3-b574-f8748871856a_story.html)
 
 
