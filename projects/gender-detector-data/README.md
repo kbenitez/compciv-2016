@@ -52,5 +52,71 @@ Dealing with commas within a CSV file was the biggest problem. Yes, commas are i
 
 ## Past Research and Articles
 
+-[HIMSS survey: Men make 25% more than women in health IT](http://www.federaltimes.com/story/government/management/hr/health/2016/03/02/himss-survey-finds-men-make-25-percent-more-than-women-healthcare/81198036/)
+-[Breaking the mold: Women firefighters](http://fox21news.com/2016/02/19/breaking-the-mold-women-fire-fighters/)
+-[U.S. Push for Fair Pay Racks Up Few Victories](http://www.wsj.com/articles/u-s-push-for-fair-pay-racks-up-few-victories-1458065433)
+-[The Wage Gap: Which Jobs Are Paying Women Less?](http://www.forbes.com/sites/shreyaagarwal/2016/03/08/the-wage-gap-which-jobs-are-paying-women-less/#b2558be5998e)
+-[Government workforce is closing the gender pay gap, but reforms still needed, report says](https://www.washingtonpost.com/politics/government-workforce-is-closing-the-gender-pay-gap-but-reforms-still-needed-report-says/2014/04/13/59281484-c1b2-11e3-b574-f8748871856a_story.html)
+
 
 ## How To Use It
+
+Here is the order in which I created my files and descriptions of what each file does. Anything not listed here would be created through the use of these files. 
+
+__fetch_data.py__ - Running this script will download a csv file from the City of Chicago data portal website and store the csv file in tempdata/ as "chicago_employees.csv"
+
+__wrangle_data.py__ - Running this script will create a new "wrangled" csv file (called "wrangled_data.csv") that contains these attributes:'Last Name', 'Firstish Name', 'Position Title', 'Department' , 'Employee Annual Salary'. It removes unwanted quotation marks and dollar signs from the data as well.
+
+__fetch_gender_data.py__ - Running this script will download a large zip file ("names.zip") of all of the baby names data from the Social Security Administration, and it will unpack that zip file as well putting numerous txt files in tempdata/ that look like "yob(year).txt".
+
+__wrangle_gender_data.py__ - Running this script aggregates a number of data files from 1950 to 2014, then reshapes it into a csv file and a json file ("wrangledbabynames.csv/json") for use in a gender-detecting program. By reshape I mean it creates the headers: year; name; gender; ratio; females; males; and total and fills those with the respective data points. It then sorts those rows in descending order of the total baby count and as a tiebreaker, in ascending alphabetical order of the name.
+ 
+__gender.py__ - Running this script takes care of loading the wrangled babynames data from the easily accessible json file, "wrangledbabynames.json", and provides a reference to the detect_gender() function. 
+
+__classify.py__ - Running this script opens and reads "wrangled_data.csv" to classify the gender of each row of the file with the detect_gender() function. It then adds the gender, ratio, and usable_name (i.e. the first name used for the detect_gender() function) attributes to the data row, which are written to a new file, "classified_data.csv".
+
+__analyze.py__ - Running this script opens and reads "classified_data.csv" to draw interesting gender related figures from it. So it counts and divides a bunch of figures and prints statistics on gender breakdowns in the Chicago workforce.
+
+## Analysis
+
+### Interesting Data I Found:
+
+#### Overall Gender Breakdown:
+
+Here are the numbers of unique names by gender in this Chicago employee list:
+F:   2059 M:   1817 NA:   1215
+And here is the female to male ratio for that unique set:
+F/M baby ratio: 113
+So there are 1.13 times more female than male employees (unidentified gendered names aside).
+
+This seems accurate because the split of the population is 50/50 due to chance statistics. I am upset with the large amount of unidentified genders, but that's just a testament to the amount of diversity in Chicago. The names are unique to outside the US and therefore not on our SS baby names lists and cannot be accurately classified.
+ 
+#### Gender Breakdown by Occupation:
+
+The amount of employees working as first responders to fire or crime is 16888.
+20% of those are female.
+I.E. There are 3396 female first responders to fire/ crime, and 13492 male first responders to fire/ crime.
+Clearly, most first responders are male as I expected.
+
+The amount of employees working in health or family & support services is 1090.
+77% of those are female.
+I.E. There are 839 female health and family supporters, and 251 male health and family supporters.
+Clearly, most health and family support workers are female as I expected.
+
+#### Gender Breakdown in the Top Tier of Incomes:
+ 
+The highest reported income is for the job position, commissioner of aviation. The gender of the highest paying position is Female. It pays $300,000.00 per year.
+Only 20% of the top 10 highest paid listed Chicago employees are female.
+
+I actually expected the percentage to be lower. I'm super surprised by these findings and proud of those women for making it that far - but it's difficult to be on par with men wage-wise.
+
+#### Gender Breakdown by Income Bracket:
+ 
+Here's the proportion of females in each of the following income brackets:
+$0 <= $30000        :      72% of 2050 employees.
+$30000 <= $50000    :      41% of 1485 employees.
+$50000 <= $100000   :      27% of 22592 employees.
+$100000 <= $250000  :      17% of 4679 employees.
+$250000 <= $1000000 :      100% of 1 employee.
+
+You can see women are mostly in the lower income brackets; as the income goes up, women are less represented. The last bracket seems to be an outlier, but I'm proud of her nonetheless.
