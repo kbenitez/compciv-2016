@@ -2,7 +2,6 @@ import requests
 from os import makedirs
 from os.path import join
 from shutil import unpack_archive
-from glob import glob
 
 
 SOURCE_URL = 'https://data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv?accessType=DOWNLOAD'
